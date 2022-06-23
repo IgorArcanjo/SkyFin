@@ -1,2 +1,2 @@
 # SkyFin
-A college project based on HTML, CSS and BootStrap
+A fintech college project, will soon be available for all platforms, based on HTML, CSS and BootStrap
