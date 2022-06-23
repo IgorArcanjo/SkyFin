@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkyFin</title>
+    <link rel="icon" href="/assets/icons/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+  </head>
+  <body>
+    <header id="header" class="container grid">
+      <a href="">
+        <img src="../assets/images/logo.png" alt="Logo da SkyFin" />
+      </a>
+    </header>
+
+    <main>
+      <section id="standard-login" class="container grid">
+        <form action="../html/works.html" class="grid">
+          <div class="email-box">
+            <label for="email">Email:</label><br>
+            <input id="email" type="email" placeholder="Digite seu email" />
+          </div>
+
+          <div class="pass-box">
+            <label for="password">Senha:</label><br>
+            <input id="password" type="password" placeholder="Digite sua senha" />
+          </div>
+
+          <div class="pass-actions">
+            <div class="checkbox">
+              <input id="checkbox" type="checkbox"/>
+              <label for="checkbox">Lembrar senha</label>
+            </div>
+
+            <a href="../html/recovery.html" class="forgotten">Esqueci minha senha</a>            
+          </div>
+
+          <input type="submit" value="ENTRAR" id="button"/>
+        </form>
+      </section>
+
+      <section id="social-login" class="container grid">
+        <a href="#" class="button">
+          <img src="../assets/icons/google.svg"></img>
+          <p>Entrar com o Google</p>
+        </a>
+        <a href="#" class="button">
+          <img
+            src="../assets/icons/facebook.svg"
+          ></img>
+          <p>Entrar com o Facebook</p>
+        </a>
+      </section>
+      
+      <section id="standard-register" class="container grid">
+        <div class="register-link">
+          <a href="../html/register.html" class="register">Clique aqui para se registrar!</a>
+        </div>
+      </section>
+
+    </main>
+  </body>
+</html>

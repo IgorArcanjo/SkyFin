@@ -1,0 +1,27 @@
+/*=== layout ===*/
+.container {
+  margin: 0 1rem;
+}
+
+.grid {
+  display: grid;
+}
+
+body {
+  background-color: hsla(0, 0%, 89%, 1);
+  display: flexbox;
+}
+
+/*=== header ===*/
+#header {
+  margin-top: 0;
+  justify-content: center;
+}
+
+#header img {
+  width: 12rem;
+  height: auto;
+  background-image: url(../assets/images/pattern.webp);
+  background-color: aqua;
+  padding: 35px 90px 35px 90px;
+}

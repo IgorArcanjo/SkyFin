@@ -1,0 +1,78 @@
+
+/*===Titulo da Pagina===*/
+#standard-title .titulo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 21px;
+  text-shadow: 0.1em 0.1em 0.5em gray
+}
+
+/*=== standard-login ===*/
+#standard-recovery {
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+
+#standard-recovery form {
+  gap: 0.75rem;
+}
+
+#standard-recovery form .email-box {
+  border-style: solid;
+  border-color: hsla(176, 76%, 44%, 1);
+  border-width: 1px;
+  border-radius: 8px;
+  box-shadow: 0.1em 0.1em 0.5em grey;
+  background-color: hsla(0, 0%, 0%, 0);
+}
+
+#standard-recovery form .email-box label {
+  padding: 0 0 0 0.25rem;
+  font-size: 14px;
+}
+
+#standard-recovery form .email-box input {
+  background-color: hsla(0, 0%, 0%, 0);
+  padding-bottom: 0.5rem;
+  border: 0 none;
+}
+
+#standard-recovery form .email-box input:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+
+#standard-recovery form #button {
+  background-color: hsla(176, 76%, 44%, 1);
+  border: 0 none;
+  border-radius: 2rem;
+  padding: 0.75rem 3rem;
+  text-shadow: 0.1em 0.1em 0.5em grey;
+  margin-top: 1rem;
+}
+
+#standard-recovery .texto-bottom {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  text-decoration: double;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.5em black;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+}
+
+.remember {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  color: black;
+  font-size: 12px;
+}

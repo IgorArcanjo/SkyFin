@@ -1,0 +1,97 @@
+/*=== standard-login ===*/
+#standard-login {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+
+#standard-login form {
+  gap: 0.75rem;
+}
+
+#standard-login form .email-box,
+#standard-login form .pass-box {
+  border-style: solid;
+  border-color: hsla(176, 76%, 44%, 1);
+  border-width: 1px;
+  border-radius: 8px;
+  box-shadow: 0.1em 0.1em 0.5em grey;
+}
+
+#standard-login form .email-box label,
+#standard-login form .pass-box label {
+  padding: 0 0 0 0.25rem;
+}
+
+#standard-login form .email-box input,
+#standard-login form .pass-box input {
+  background-color: hsla(0, 0%, 0%, 0);
+  padding-bottom: 0.5rem;
+  border: 0 none;
+}
+
+#standard-login form .email-box input:focus,
+#standard-login form .pass-box input:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+#standard-login form .pass-actions {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.6rem;
+  align-items: center;
+}
+
+#standard-login form .pass-actions .checkbox {
+  display: flex;
+  align-items: center;
+}
+
+#standard-login form .pass-actions a {
+  color: hsla(0, 0%, 0%, 1);
+  text-decoration: underline;
+}
+
+#standard-login form #button {
+  background-color: hsla(176, 76%, 44%, 1);
+  border: 0 none;
+  border-radius: 2rem;
+  padding: 0.75rem 3rem;
+}
+
+/*=== social-login ===*/
+#social-login {
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 5.5rem;
+}
+
+#social-login .button {
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  gap: 1rem;
+  color: hsla(0, 0%, 0%, 1);
+  padding: 0.875rem 2.25rem;
+  align-items: center;
+  border: 1px solid hsla(176, 76%, 44%, 1);
+  border-radius: 0.5rem;
+  box-shadow: 0.1em 0.1em 0.5em grey;
+}
+
+#standard-register .register-link {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -2.5rem;
+}
+
+#standard-register .register {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
